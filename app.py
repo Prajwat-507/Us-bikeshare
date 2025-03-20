@@ -32,6 +32,14 @@ with st.sidebar:
 
 # 1- Get Filters
 def get_filters():
+    """
+        Asks user to specify a city, month, and day to analyze.
+    
+        Returns:
+            (str) city - name of the city to analyze
+            (str) month - name of the month to filter by, or "all" to apply no month filter
+            (str) day - name of the day of week to filter by, or "all" to apply no day filter
+    """
 
     # Set title
     st.title("US Bikeshare Data Explorer")
@@ -68,6 +76,16 @@ def get_filters():
 
 # 2- Load Data
 def load_data(city, month, day):
+    """
+    Loads data for the specified city and filters by month and day if applicable.
+
+    Args:
+        (str) city - name of the city to analyze
+        (str) month - name of the month to filter by, or "all" to apply no month filter
+        (str) day - name of the day of week to filter by, or "all" to apply no day filter
+    Returns:
+        df - Pandas DataFrame containing city data filtered by month and day
+    """
 
     # Set a spinner with 3 sec delay
     with st.spinner("🔄 Loading data... Please wait..."):
@@ -88,6 +106,7 @@ def load_data(city, month, day):
 
 # 3- Time Stats
 def time_stats(df):
+    """Displays statistics on the most frequent times of travel."""
 
     # Set subheader
     st.subheader("🕒 Calculating Time Statistics")
@@ -132,6 +151,7 @@ def time_stats(df):
 
 # Station Stats
 def station_stats(df):
+    """Displays statistics on the most popular stations and trip."""
 
     # Set subheader
     st.subheader("📊 Calculating Station Statistics")
@@ -157,6 +177,7 @@ def station_stats(df):
 
 # trip_duration_stats
 def trip_duration_stats(df):
+    """Displays statistics on the total and average trip duration."""
 
     #Set subheader
     st.subheader("🕒 Trip Duration Statistics")
@@ -189,6 +210,8 @@ def trip_duration_stats(df):
 
 # Helper function to format duration in seconds into 'dd days hh hr ss min'
 def format_duration(seconds):
+    """This function help in formatting time into standard format"""
+
     #Using timedelta function to convert seconds into days format
     duration = timedelta(seconds=int(seconds))
     days = duration.days
@@ -204,6 +227,8 @@ def format_duration(seconds):
 
 #User Stats
 def user_stats(df):
+    """Displays statistics on bikeshare users."""
+
     # Set subheader
     st.subheader("👤 User Statistics")
 
@@ -250,6 +275,18 @@ def user_stats(df):
 # Visual Insight for data
 
 def showStats(city, month, day):
+    """
+    Displays visual statistical insights for a selected city, month, and day.
+
+    - Shows top 10 most frequent start-end station pairs.
+    - Compares trip duration by user type (Subscribers vs Customers).
+
+    Args:
+        city (str): Name of the city.
+        month (str): Selected month.
+        day (str): Selected day.
+    """
+
     df = load_data(city, month, day)
 
     st.markdown(f"### 📊 Showing Statistical Insights for:")
@@ -281,6 +318,18 @@ def showStats(city, month, day):
     st.markdown("---")
 
 def showStatsDay(city, month, day):
+    """
+    Displays visual statistical insights for a selected city and month across all days.
+
+    - Shows average trip duration per day.
+    - Displays a comparison of user types (Subscribers vs Customers) per day.
+
+    Args:
+        city (str): Name of the city.
+        month (str): Selected month.
+        day (str): Selected day (used for filtering but the plots consider all days).
+    """
+
     df = load_data(city, month, day)
 
     st.markdown(f"### 📊 Showing Statistical Insights for:")
@@ -309,6 +358,17 @@ def showStatsDay(city, month, day):
 
 
 def showStatsMonth(city, month, day):
+    """
+    Displays visual statistical insights for a selected city and day across all months.
+
+    - Shows the number of trips per month to highlight seasonal usage patterns.
+    - Compares user types (Subscribers vs Customers) for each month.
+
+    Args:
+        city (str): Name of the city.
+        month (str): Selected month (used for filtering but the plots consider all months).
+        day (str): Selected day.
+    """
     df = load_data(city, month, day)
 
     st.markdown(f"### 📊 Showing Statistical Insights for:")
