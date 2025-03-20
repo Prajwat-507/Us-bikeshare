@@ -81,27 +81,27 @@ average age (only available for NYC and Chicago)
 ___________________________________________________________________________________________
 ####              Resources used 
 #
-# Udacity Introduction to Python programming course videos and notes
+##### Udacity Introduction to Python programming course videos and notes
 #
-# Udacity project description and Rubric
+##### Udacity project description and Rubric
 #
-# https://www.askpython.com/python/examples/python-user-input#:~:text=Python%20User%20Input%20from%20Keyboard%20%E2%80%93%20input%20%28%29,for%20the%20user%20input.%20...%20More%20items...%20
+##### https://www.askpython.com/python/examples/python-user-input#:~:text=Python%20User%20Input%20from%20Keyboard%20%E2%80%93%20input%20%28%29,for%20the%20user%20input.%20...%20More%20items...%20
 # 
-# https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
+##### https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
 # 
-# https://stackoverflow.com/questions/51603690/extract-day-and-month-from-a-datetime-object
+##### https://stackoverflow.com/questions/51603690/extract-day-and-month-from-a-datetime-object
 #
-# https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.dt.month.html
+##### https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.dt.month.html
 #
-# https://pandas.pydata.org/docs/reference/api/pandas.Series.dt.weekday.html
+##### https://pandas.pydata.org/docs/reference/api/pandas.Series.dt.weekday.html
 #
-# https://seaborn.pydata.org/generated/seaborn.barplot.html
+##### https://seaborn.pydata.org/generated/seaborn.barplot.html
 #
-# https://seaborn.pydata.org/generated/seaborn.countplot.html
+##### https://seaborn.pydata.org/generated/seaborn.countplot.html
 #
-# https://www.geeksforgeeks.org/a-beginners-guide-to-streamlit/
+##### https://www.geeksforgeeks.org/a-beginners-guide-to-streamlit/
 #
-# https://pandas.pydata.org/docs/reference/frame.html
+##### https://pandas.pydata.org/docs/reference/frame.html
 
 
 
