@@ -3,12 +3,12 @@ This project is an interactive **Streamlit web application** that explores US Bi
 
 ## Project Structure
 - 📁 US-Bikeshare-Project
-  - 📒 notebook Contains jupiter source file for this project.
-  - 📁 data/    Contains cleaned data only which is used for web app.
+  - 📒 notebook/       Contains jupiter source file for this project.
+  - 📁 data/           Contains cleaned data only which is used for web app.
     - chicago_cleaned.csv
     - new_york_city_cleaned.csv
     - washington_cleaned.csv
-- 🖥️ app.py        The main start file for the project
+- 🖥️ app.py            The main start file for the project
 - ⚙️ requirements.txt
 
 ## How to Run the App
