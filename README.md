@@ -2,21 +2,22 @@
 This project is an interactive **Streamlit web application** that explores US Bikeshare system data from **three major cities** — **Chicago**, **New York City**, and **Washington**. It allows users to filter and analyze bikeshare trends using multiple visual and statistical tools.
 
 ## Project Structure
-📁 US-Bikeshare-Project
-  📒 notebook Contains jupiter source file for this project.
-  📁 data/    Contains cleaned data only which is used for web app.
-    chicago_cleaned.csv
-    new_york_city_cleaned.csv
-    washington_cleaned.csv
-🖥️ app.py        The main start file for the project
-⚙️ requirements.txt
+- 📁 US-Bikeshare-Project
+  - 📒 notebook Contains jupiter source file for this project.
+  - 📁 data/    Contains cleaned data only which is used for web app.
+    - chicago_cleaned.csv
+    - new_york_city_cleaned.csv
+    - washington_cleaned.csv
+- 🖥️ app.py        The main start file for the project
+- ⚙️ requirements.txt
 
-## ▶️ How to Run the App
+## How to Run the App
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/US-Bikeshare-Project.git
 2. **Run These commands**
+   ```bash
    cd US-Bikeshare-Project
    pip install -r requirements.txt
    streamlit run app.py
