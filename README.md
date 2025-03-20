@@ -78,8 +78,8 @@ average age (only available for NYC and Chicago)
 #### Output 5:
 ![ss_op_5](https://github.com/user-attachments/assets/01701d67-898a-4815-bca4-d4e6601797f2)
 
-###############################################################################
-######              Resources used 
+___________________________________________________________________________________________
+####              Resources used 
 #
 # Udacity Introduction to Python programming course videos and notes
 #
