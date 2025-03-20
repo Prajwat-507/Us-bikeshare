@@ -67,13 +67,16 @@ average age (only available for NYC and Chicago)
 
 ### Output Screen shots
 
+#### Output 1:
 ![ss_op_1](https://github.com/user-attachments/assets/719766a8-17ff-495b-805a-67edb547d209)
-
+#### Output 2:
 ![ss_op_2](https://github.com/user-attachments/assets/923e0247-fcbb-4ccf-8775-68727a0a5fca)
+#### Output 3:
 ![ss_op_3](https://github.com/user-attachments/assets/ae68f933-854a-40a1-81bf-0a117b03d9f2)
-
+#### Output 4:
 ![ss_op_4](https://github.com/user-attachments/assets/b3ac568b-a203-4023-82e6-e931b1d217c4)
-![ss_op_5](![ss_op_5](https://github.com/user-attachments/assets/01701d67-898a-4815-bca4-d4e6601797f2)
+#### Output 5:
+![ss_op_5](https://github.com/user-attachments/assets/01701d67-898a-4815-bca4-d4e6601797f2)
 
 
    
