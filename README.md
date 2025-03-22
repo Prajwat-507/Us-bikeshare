@@ -44,28 +44,28 @@ Thanks to the rise in information technologies, it is easy for a user of the sys
 ### Statistics Computed
 
 #### 1 Popular times of travel (i.e., occurs most often in the start time)
-  -most common month
-  -most common day of week
-  -most common hour of day
-  -most common end hour
-  -most common start hour
+  - most common month
+  - most common day of week
+  - most common hour of day
+  - most common end hour
+  - most common start hour
 
 #### 2 Popular stations and trip
-  -most common start station
-  -most common end station
-  -most common trip from start to end (i.e., most frequent combination of start station and end station)
+  - most common start station
+  - most common end station
+  - most common trip from start to end (i.e., most frequent combination of start station and end station)
 
 #### 3 Trip duration
-  -total travel time
-  -average travel time
-  -average trip by user subscriber
-  -average trip by customer
+  - total travel time
+  - average travel time
+  - average trip by user subscriber
+  - average trip by customer
 
 #### 4 User info
-  -counts of each user type
-  -counts of each gender (only available for NYC and Chicago)
-  -earliest, most recent, most common year of birth (only available for NYC and Chicago)
-  -average age (only available for NYC and Chicago)
+  - counts of each user type
+  - counts of each gender (only available for NYC and Chicago)
+  - earliest, most recent, most common year of birth (only available for NYC and Chicago)
+  - average age (only available for NYC and Chicago)
 
 ### Link to web app
 [Click here to open the US Bikeshare Stats Web App 🚴‍♂️](https://us-bikeshare-stats-p507.streamlit.app/)
