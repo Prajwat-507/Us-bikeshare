@@ -5,8 +5,13 @@ This repo also contains source **notebook** file.
 
 ## Project Structure
 - 📁 US-Bikeshare-Project
-  - 📒 notebook/       Contains jupiter source file for this project.
-  - 📁 data/           Contains cleaned data only which is used for web app.
+  - 📒 notebook/  ->     jupiter source file for this project.
+     - 📒 checkpoint.ipynb
+     - bikeshare.ipynb
+     - chicago.csv
+     - new_york_city.csv
+     - washington.csv
+  - 📁 data/     ->      csv files.
     - chicago_cleaned.csv
     - new_york_city_cleaned.csv
     - washington_cleaned.csv
@@ -39,28 +44,28 @@ Thanks to the rise in information technologies, it is easy for a user of the sys
 ### Statistics Computed
 
 #### 1 Popular times of travel (i.e., occurs most often in the start time)
-most common month
-most common day of week
-most common hour of day
-most common end hour
-most common start hour
+-most common month
+-most common day of week
+-most common hour of day
+-most common end hour
+-most common start hour
 
 #### 2 Popular stations and trip
-most common start station
-most common end station
-most common trip from start to end (i.e., most frequent combination of start station and end station)
+-most common start station
+-most common end station
+-most common trip from start to end (i.e., most frequent combination of start station and end station)
 
 #### 3 Trip duration
-total travel time
-average travel time
-average trip by user subscriber
-average trip by customer
+-total travel time
+-average travel time
+-average trip by user subscriber
+-average trip by customer
 
 #### 4 User info
-counts of each user type
-counts of each gender (only available for NYC and Chicago)
-earliest, most recent, most common year of birth (only available for NYC and Chicago)
-average age (only available for NYC and Chicago)
+-counts of each user type
+-counts of each gender (only available for NYC and Chicago)
+-earliest, most recent, most common year of birth (only available for NYC and Chicago)
+-average age (only available for NYC and Chicago)
 
 ### Link to web app
 [Click here to open the US Bikeshare Stats Web App 🚴‍♂️](https://us-bikeshare-stats-p507.streamlit.app/)
@@ -79,7 +84,7 @@ average age (only available for NYC and Chicago)
 ![ss_op_5](https://github.com/user-attachments/assets/01701d67-898a-4815-bca4-d4e6601797f2)
 
 ___________________________________________________________________________________________
-####              Resources used 
+###              Resources used 
 #
 ##### Udacity Introduction to Python programming course videos and notes
 #
